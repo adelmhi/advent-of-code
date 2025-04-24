@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# C++
+*.o
+*.out
+*.exe
+*.obj
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.d
+*.pdb
+*.idb
+*.pch
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.sdf
+*.opensdf
+*.ipch
+*.user
+*.userosscache
+*.sln.docstates
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db 
+
+# Environment
+.env 
