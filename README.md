@@ -18,6 +18,8 @@ advent_of_code/
 │       ├── year2023/        # Solutions for 2023
 │       │   └── ...
 │       └── cli.py           # Command-line interface
+├── lib/                     # External dependencies
+│   └── python-toolbox/      # Algorithm and data structure toolbox
 ├── inputs/                  # Input files
 │   ├── year2024/
 │   └── year2023/
@@ -31,10 +33,12 @@ advent_of_code/
 
 ## Setup
 
-1. Clone this repository:
+1. Clone this repository and initialize submodules:
 ```bash
 git clone <repository-url>
 cd advent_of_code
+git submodule init
+git submodule update
 ```
 
 2. Create and activate a virtual environment (recommended):
@@ -61,9 +65,9 @@ pip install -r requirements.txt
      AOC_SESSION=your_session_cookie_here
      ```
 
-5. Install the package in development mode:
+5. Install the package in development mode with toolbox support:
 ```bash
-pip install -e .
+pip install -e ".[dev,toolbox]"
 ```
 
 ## Usage

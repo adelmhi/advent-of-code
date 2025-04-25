@@ -1,0 +1,3 @@
+[submodule "dependencies/python-toolbox"]
+	path = dependencies/python-toolbox
+	url = https://github.com/adelmhi/python-toolbox.git
