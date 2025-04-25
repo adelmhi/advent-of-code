@@ -27,7 +27,7 @@ def timed_execution(func: Callable) -> Callable:
         start_time = time.time()
         result = func(*args, **kwargs)
         end_time = time.time()
-        print(f"Execution time: {end_time - start_time:.4f} seconds")
+        print(f"Execution time: {(end_time - start_time)*1e+3:.4f} ms")
         return result
 
     return wrapper

@@ -6,6 +6,7 @@ from typing import Any, List, Optional, Tuple
 import requests
 
 from .aoc_login import get_input
+from .common import timed_execution
 
 
 @dataclass
@@ -23,10 +24,12 @@ class AOCSolution:
         self.year = year
         self.day = day
 
+    @timed_execution
     def part1(self, input_data: str) -> int:
         """Solve part 1 of the puzzle."""
         raise NotImplementedError("Part 1 not implemented")
 
+    @timed_execution
     def part2(self, input_data: str) -> int:
         """Solve part 2 of the puzzle."""
         raise NotImplementedError("Part 2 not implemented")

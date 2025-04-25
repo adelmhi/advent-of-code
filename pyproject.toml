@@ -9,7 +9,9 @@ authors = [
     { name = "Adel Mhiri", email = "adel.mhiri@laposte.net" }
 ]
 dependencies = [
-    "python_toolbox @ file:./dependencies/python-toolbox"
+    "python_toolbox @ file:./dependencies/python-toolbox",
+    "requests>=2.31.0",
+    "types-requests>=2.31.0",
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
